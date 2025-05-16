@@ -31,7 +31,7 @@ Simulation Tool: simulate_realtime.py generates test data for real-time testing.
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/insider-threat-detection.git
+git clone https://github.com/IT22361486/insider_threat_detector.git
 cd insider-threat-detection
 
 Set up a Python virtual environment and install dependencies:
