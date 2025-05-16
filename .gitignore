@@ -1,0 +1,63 @@
+# ----------------------------
+# Python bytecode & cache
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# ----------------------------
+# Virtual environment folders
+# ----------------------------
+venv/
+env/
+.venv/
+
+# ----------------------------
+# Jupyter Notebook checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# IDE/editor configs
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# macOS and Windows system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs, temp files, and output
+# ----------------------------
+*.log
+*.tmp
+
+# ----------------------------
+# Streamlit cache & config
+# ----------------------------
+.streamlit/
+
+# ----------------------------
+# Exclude CERT r2 raw data (too large to commit)
+# ----------------------------
+data/raw/r2/
+data/raw/r2/**
+
+# ----------------------------
+# Exclude large dataset formats (optional safety)
+# ----------------------------
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# ----------------------------
+# Model files and binaries (optional)
+# ----------------------------
+*.joblib
+*.pkl
+*.h5
